@@ -1,0 +1,1 @@
+!function(){var n,t,e;window.analytics=(n=0,t=!1,e=function(){return n++},document.addEventListener("click",e),{destroy:function(){document.removeEventListener("click",e),t=!0},getClicks:function(){return t?"Analitics is destroyed":n},getItog:function(){return"Itog ".concat(n+1+2)}})}();
